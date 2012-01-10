@@ -2,7 +2,7 @@ Instalation
 ===========
 * Download this folder
 
-``cd ``
+``cd``
 
 ``git clone git@github.com:bsuttor/python-tools.git``
 
