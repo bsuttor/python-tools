@@ -1,5 +1,13 @@
 Instalation
 ===========
+* Download this folder
+
+``cd ``
+
+``git clone git@github.com:bsuttor/python-tools.git``
+
+``cd python-tools``
+
 * Copy default.cfg for download eggs in local, and change path into default.cfg
 
 ``cp default.cfg ~/.buildout/default.cfg``
