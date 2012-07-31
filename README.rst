@@ -1,5 +1,5 @@
-Plone developper tools
-======================
+Plone developer tools
+=====================
 After Ubuntu installation
 -------------------------
 Add some packages::
