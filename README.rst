@@ -7,7 +7,7 @@ After Ubuntu installation
 Add some packages::
 
     sudo apt-get install python-dev build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev libjpeg62-dev libreadline-gplv2-dev wv poppler-utils
-    sudo apt-get install git subversion vim
+    sudo apt-get install git subversion vim python-virtualenv
 
 Add pythons
 -----------
@@ -21,7 +21,8 @@ After, modify buildout.cfg and choose which pythons you needed. And launch build
 
   cd
   cd python
-  python bootstrap.py
+  virtualenv tmpython
+  tmpython/bin/python bootstrap.py
   bin/buildout -Nt 4
 
 Finaly add this line on ~/.bashrc file::
