@@ -1,5 +1,7 @@
 Plone developer tools
 =====================
+.. contents::
+
 After Ubuntu installation
 -------------------------
 Add some packages::
