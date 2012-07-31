@@ -1,5 +1,35 @@
-Instalation
-===========
+Plone developper tools
+======================
+After Ubuntu installation
+-------------------------
+Add some packages:
+
+  sudo apt-get install python-dev build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev libjpeg62-dev libreadline-gplv2-dev wv poppler-utils
+  sudo apt-get install git subversion vim
+
+Add pythons
+-----------
+I use this repo https://github.com/collective/buildout.python for installing python. 
+I develop with buildout and virtualenv.
+
+  cd
+  git clone git://github.com/collective/buildout.python.git python
+
+After, modify buildout.cfg and choose which pythons you needed. And launch buildout
+
+  cd
+  cd python
+  python bootstrap-1.4.4.py
+  bin/buildout -Nt 4
+
+Finaly add this line on ~/.bashrc file
+  
+  export PATH=~/python/bin:$PATH
+
+
+Add developper tools
+--------------------
+
 * Download this folder
 
 ``cd``
