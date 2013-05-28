@@ -15,23 +15,21 @@ I use this repo https://github.com/collective/buildout.python for installing pyt
 I develop with buildout and virtualenv.::
 
   cd
-  git clone git://github.com/collective/buildout.python.git python
+  git clone git://github.com/collective/buildout.python.git pythons
+  cd pythons
 
 After, modify buildout.cfg and choose which pythons you needed. And launch buildout::
 
-  cd
-  cd python
-  virtualenv tmpython
-  tmpython/bin/python bootstrap.py
+  python bootstrap.py
   bin/buildout -Nt 4
 
 Finaly add this line on ~/.bashrc file::
   
-  export PATH=~/python/bin:$PATH
+  export PATH=~/pythons/bin:$PATH
 
 
-Add developper tools
---------------------
+Add developer tools
+-------------------
 Download this repo::
 
   cd
