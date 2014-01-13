@@ -49,3 +49,4 @@ Add this line on .bashrc file :::
 
   export PATH=~/python-tools/bin:$PATH
 
+Or make a symlink of some scripts
